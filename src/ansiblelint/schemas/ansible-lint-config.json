@@ -49,6 +49,12 @@
       "title": "Extra Vars",
       "type": "object"
     },
+    "format": {
+      "default": "rich",
+      "enum": ["rich", "json", "codeclimate", "quiet", "pep8", "sarif"],
+      "title": "Choose the output format",
+      "type": "string"
+    },
     "kinds": {
       "items": {
         "additionalProperties": {
